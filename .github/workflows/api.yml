@@ -23,4 +23,4 @@ jobs:
       uses: actions/setup-node@v4
     - run: whoami  
     - run: npm --version
-    - run: node app.js
+    - run: node app.js &
