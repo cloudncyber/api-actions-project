@@ -22,5 +22,5 @@ jobs:
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
     - run: whoami  
-    - run: npm --version
+    - run: which npm
     - run: node app.js &
